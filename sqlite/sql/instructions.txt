@@ -1,0 +1,52 @@
+install:
+sudo apt-get install sqlite3
+
+run:
+sqlite3 file.db
+
+set tables:
+.mode column
+.headers on
+
+(you can use .help for more instructions) 
+
+to quit:
+.quit 
+
+SQL commands:
+
+CREATE TABLE tablename (
+	name1 TYPE1,
+	name2 TYPE2,
+	name3 TYPE3,
+	...
+	PRIMARY KEY (name1)
+);
+
+INSERT INTO tablename VALUES (value1, value2, value3);
+
+SELECT * FROM tablename;
+
+UPDATE tablename
+SET name2=value2, name3=value3 
+WHERE name1=value1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

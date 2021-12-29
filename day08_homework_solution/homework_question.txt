@@ -1,0 +1,15 @@
+Create a Rectangle Class (width height)
+It will have area and perimeter methods
+
+Create a Square class (length)
+The Square class will inherit from the Rectangle class
+
+Changing the width of a square will change the height and vice verse
+
+Add  main code that will have a list of squares and rectangles and will print
+the area of each as well as print the shape with the largest perimeter
+
+Extra:
+* Add a Shape parent class, add a Circle class
+* Keeping Shape empty is okay, but if you want Shape to act like an abstract class
+  you can use the abc module: https://docs.python.org/3/library/abc.html

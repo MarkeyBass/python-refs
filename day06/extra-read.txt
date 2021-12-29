@@ -1,0 +1,6 @@
+
+working with binary data with c variables / more precise type and size of var:
+https://docs.python.org/3/library/struct.html
+
+working with csv sheets in python
+https://docs.python.org/3/library/csv.html

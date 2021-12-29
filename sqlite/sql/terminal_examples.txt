@@ -1,0 +1,48 @@
+sqlite> select * from product
+   ...> ;
+id          name        price     
+----------  ----------  ----------
+123         apple       13        
+456         banana      12        
+sqlite> update product set price=10 where id=123
+   ...> ;
+sqlite> select * from product;
+id          name        price     
+----------  ----------  ----------
+123         apple       10        
+456         banana      12        
+sqlite> insert or replace into product values (789, 'avocado', 8);
+sqlite> select * from product;
+id          name        price     
+----------  ----------  ----------
+123         apple       10        
+456         banana      12        
+789         avocado     8         
+sqlite> insert or replace into product values (789, 'avocado', 20);
+sqlite> select * from product;
+id          name        price     
+----------  ----------  ----------
+123         apple       10        
+456         banana      12        
+789         avocado     20        
+sqlite> insert or replace into product values (123, 'smith', 10);
+sqlite> select * from product;
+id          name        price     
+----------  ----------  ----------
+456         banana      12        
+789         avocado     20        
+123         smith       10        
+sqlite> select * from product order by id;
+id          name        price     
+----------  ----------  ----------
+123         smith       10        
+456         banana      12        
+789         avocado     20        
+sqlite> select * from product;
+id          name        price     
+----------  ----------  ----------
+456         banana      12        
+789         avocado     20        
+123         smith       10        
+sqlite> 
+

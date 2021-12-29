@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1097</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string>Fetching data from the DB and inserting to the table</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="water_stations_lable">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>60</y>
+      <width>651</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Gothic</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Water Station Alarm Reports</string>
+    </property>
+    <property name="statusTip">
+     <string>Water Station Alarm Reports</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Water Stations Alarm Reports</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>170</y>
+      <width>551</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="rowCount">
+     <number>10</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Station ID</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>159</red>
+       <green>185</green>
+       <blue>181</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Last Update Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Alarm 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Alarm 2</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>11111</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>11-11-11</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>22222</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>22-22-22</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>650</y>
+      <width>120</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Fetching data from the DB and inserting to the table</string>
+    </property>
+    <property name="statusTip">
+     <string>Fetching data from the DB and inserting to the table</string>
+    </property>
+    <property name="text">
+     <string>Refresh Data</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1097</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
