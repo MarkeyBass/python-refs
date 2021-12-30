@@ -1,0 +1,23 @@
+day 5 - files, functions, global (variable), modules (sys, printimg-shapes)
+
+day 6 - ab_menue (writing on diferent files: bin, json, pickle. using with keyword) struct (floats) 
+
+day 7 - classes: point6.py (adding type validation), using_point4.py importing
+	exeptions
+
+day 8 - OOP --- data hiding, seters, getters, property-decorator
+		HomeWork - shapes & inheritance
+		inheritance
+		operator_overloading 
+		OOP Vehicle home work solution
+		basic sockets
+
+day 9 - Sockets
+day 10 - Sockets
+day 10 corrections with grisha - Socket Login Application
+
+day 11 - SQLite & some regex, tirgul - threads
+
+X-O, fileSystem
+
+Regex++

@@ -8,8 +8,7 @@ while True:
     print("""
     A = {}; B = {}
     
-    Set (A)
-    
+    Set (A)    
     Set (B)
     (S)ave
     (L)oad

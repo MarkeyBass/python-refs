@@ -15,4 +15,9 @@ if __name__ == '__main__':
 
     del p1.a
 
+    try:
+        print(p1.a)
+    except AttributeError as err:
+        print(err)
+
     print(p1.a)

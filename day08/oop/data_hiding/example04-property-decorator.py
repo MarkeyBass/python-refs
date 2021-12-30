@@ -1,6 +1,8 @@
 # Google search python builtin -> property()
 # https://docs.python.org/3/library/functions.html#property
 
+# https://www.programiz.com/python-programming/property
+
 
 class Person:
     MIN_AGE = 0

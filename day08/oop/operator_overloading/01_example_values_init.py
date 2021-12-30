@@ -5,6 +5,9 @@ class T:
 
 
 if __name__ == '__main__':
+    t0 = T()
+    print(t0.numbers)
+
     t1 = T()
     t1.numbers.append(111)
 
